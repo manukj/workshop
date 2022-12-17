@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:workshop1/FirstPage.dart';
 
+import 'AiScreen.dart';
 import 'SecondPage.dart';
 
 void main() {
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: SecondPage(),
+      home: AiScreen(),
     );
   }
 }
